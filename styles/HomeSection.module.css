@@ -1,0 +1,71 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  min-height: 200vh;
+}
+.home-section .left-section h1 {
+  font-size: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+.home-section .left-section h1 .elmarmori {
+  color: var(--main-color);
+  position: relative;
+}
+.home-section .left-section h1 .elmarmori:before {
+  content: url(https://res.cloudinary.com/dk5awi1mn/image/upload/v1670321917/jbrish/brush_k3sefi.png);
+  position: absolute;
+  top: -100px;
+  z-index: -1;
+  transform: translateX(-25px);
+}
+.home-section .left-section p {
+  line-height: 27px;
+  max-width: 20rem;
+}
+.home-section .left-section .buttons-div {
+  margin: 3rem 0;
+}
+.home-section .left-section .buttons-div a {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.home-section .left-section .buttons-div a:first-child {
+  background: linear-gradient(to right, #24cbff, #fc5ff0, #fe966b);
+  color: var(--main-color);
+}
+.home-section .left-section .buttons-div a:first-child:hover {
+  color: white;
+}
+.home-section .left-section .buttons-div a:last-child {
+  padding: 13px 30px;
+  border-image: linear-gradient(to right, #24cbff, #fc5ff0, #fe966b) 23;
+  border-style: solid;
+  border-width: 2px;
+}
+.home-section .left-section .buttons-div a:last-child:hover {
+  color: #dc4492;
+}
+.home-section .left-section .social-media-icons-div {
+}
+.home-section .left-section .social-media-icons-div a {
+  padding: 15px 35px 15px 0;
+  font-size: 3rem;
+}
+.home-section .left-section .social-media-icons-div a:hover {
+  color: #6b86cf;
+}
+.home-section .right-section .image-div:before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid #24cbff;
+  transform: translate(-50px, -50px);
+  z-index: -1;
+}
+.home-section .right-section img {
+  border-radius: 50%;
+}

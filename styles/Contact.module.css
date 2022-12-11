@@ -1,0 +1,102 @@
+.contact-section h1.heading {
+  position: relative;
+  font-size: 2.5rem;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.contact-section h1.heading:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--main-linear-gradient);
+  bottom: -4px;
+}
+.contact-section-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+@media (max-width: 991px) {
+  .contact-section-content {
+    flex-direction: column;
+  }
+  .contact-section-content .image-div {
+    width: 50%;
+    margin: 0 auto 20px;
+    text-align: center;
+    height: 300px;
+  }
+  .contact-section-content .image-div img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section-content .image-div {
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .contact-section-content .image-div {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
+.contact-section-content .form-div {
+  flex: 1;
+}
+.contact-section-content .form-div form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.contact-section-content .form-div .input-div,
+.contact-section-content .form-div .textarea-div {
+  position: relative;
+}
+.contact-section-content .form-div .input-div .icon-div,
+.contact-section-content .form-div .textarea-div .icon-div {
+  display: none;
+}
+.contact-section-content .form-div .input-div.required .icon-div,
+.contact-section-content .form-div .textarea-div.required .icon-div {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: var(--secondary-color);
+  transform: translate(-25px, -50%);
+}
+.contact-section-content .form-div .input-div input,
+.contact-section-content .form-div .textarea-div textarea {
+  width: 100%;
+  border: none;
+  padding: 1.25rem;
+  font-size: 1rem;
+  background-color: var(--sky-color);
+}
+@media (max-width: 991px) {
+  .contact-section-content .form-div .input-div,
+  .contact-section-content .form-div .textarea-div {
+    margin-bottom: 10px;
+  }
+}
+.contact-section-content .form-div .button-div button {
+  background-color: var(--yellow-color);
+  padding: 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-section-content .form-div .button-div button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+.contact-section-content .form-div .button-div button:not(:disabled):hover {
+  background-color: rgb(255, 145, 0);
+}
