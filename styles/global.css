@@ -8,7 +8,8 @@
 }
 :root {
   --main-color: #010026;
-  --secondary-color: #dc4492;
+  /* --secondary-color: #dc4492; */
+  --secondary-color: #a70056;
   --yellow-color: #fdcc49;
   --sky-color: #24cbff;
   --main-linear-gradient: linear-gradient(to right, #24cbff, #fc5ff0, #fe966b);
