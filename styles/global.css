@@ -224,6 +224,20 @@ a {
   min-height: 100vh;
   position: relative;
 }
+@media (min-width: 1650px) {
+  .home-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .home-section .left-section p.additional-info {
+    max-width: unset;
+  }
+}
+@media (min-width: 991px) {
+  .home-section {
+    padding-top: 300px;
+  }
+}
 @media (max-width: 991px) {
   .home-section {
     flex-direction: column;
@@ -276,6 +290,7 @@ a {
   line-height: 27px;
   max-width: 20rem;
 }
+
 .home-section .left-section .buttons-div {
   margin: 3rem 0;
 }

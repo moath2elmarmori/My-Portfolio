@@ -57,6 +57,15 @@ function Projects() {
           projectLiveSite="https://moath-yelpcamp.onrender.com/"
           projectGithubRepo="https://github.com/moath2elmarmori/yelpCamp"
         />
+        <SingleProject
+          imageSrc={
+            "https://res.cloudinary.com/dk5awi1mn/image/upload/v1675934459/jbrish/Screenshot_1_vmveuo.png"
+          }
+          imageAlt="Entertainment Web App"
+          projectTitle="Entertainment Web App"
+          projectLiveSite="https://entertainment-web-app-moath.vercel.app/"
+          projectGithubRepo="https://github.com/moath2elmarmori/Entertainment-web-app"
+        />
 
         <SingleProject
           imageSrc={
@@ -104,7 +113,7 @@ function Projects() {
           projectLiveSite="https://moath-ticketing-system.onrender.com/"
           projectGithubRepo="https://github.com/moath2elmarmori/Ticketing-System-Project"
         />
-        <SingleProject
+        {/* <SingleProject
           imageSrc={
             "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596707/jbrish/screencapture-tic-tac-toe-moath-netlify-app-2022-12-09-16_37_04_bywlga.png"
           }
@@ -112,7 +121,7 @@ function Projects() {
           projectTitle="TIC TAC TOE"
           projectLiveSite="https://tic-tac-toe-moath.netlify.app/"
           projectGithubRepo="https://github.com/moath2elmarmori/TIC-TAC-TOE"
-        />
+        /> */}
         <SingleProject
           imageSrc={
             "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597084/jbrish/screencapture-goalsetter-moath-onrender-2022-12-09-16_43_36_gjl74y.png"
