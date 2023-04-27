@@ -43,11 +43,10 @@ const projectsInfoArr = [
   {
     imgSrc:
       "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670593685/jbrish/screencapture-memory-game-moath-netlify-app-2022-12-09-15_46_26_snenoj.png",
-    imageAlt: "Project Managment Application",
-    projectTitle: "Project Managment Application",
-    projectLiveSite: "https://project-mgmt-moath.onrender.com/",
-    projectGithubRepo:
-      "https://github.com/moath2elmarmori/MERN-GraphQl-Project-Mgmt",
+    imageAlt: "Memory Game Screen Shot",
+    projectTitle: "Memory Game",
+    projectLiveSite: "https://memory-game-moath.netlify.app/",
+    projectGithubRepo: "https://github.com/moath2elmarmori/Memory-Game",
   },
   {
     imgSrc:
@@ -60,12 +59,20 @@ const projectsInfoArr = [
   },
   {
     imgSrc:
-      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597084/jbrish/screencapture-goalsetter-moath-onrender-2022-12-09-16_43_36_gjl74y.png",
-    imageAlt: "MERN GoalSetter",
-    projectTitle: "MERN GoalSetter",
-    projectLiveSite: "https://goalsetter-moath.onrender.com/",
-    projectGithubRepo: "https://github.com/moath2elmarmori/MERN-GOALS-APP",
+      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1682579799/jbrish/Screenshot_2_tzyk19.png",
+    imageAlt: "Connect Four Game Screen Shot",
+    projectTitle: "Connect Four Game",
+    projectLiveSite: "https://connect-four-game-moath.vercel.app/",
+    projectGithubRepo: "https://github.com/moath2elmarmori/Connect-Four-Game",
   },
+  // {
+  //   imgSrc:
+  //     "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597084/jbrish/screencapture-goalsetter-moath-onrender-2022-12-09-16_43_36_gjl74y.png",
+  //   imageAlt: "MERN GoalSetter",
+  //   projectTitle: "MERN GoalSetter",
+  //   projectLiveSite: "https://goalsetter-moath.onrender.com/",
+  //   projectGithubRepo: "https://github.com/moath2elmarmori/MERN-GOALS-APP",
+  // },
   //   {
   //     imgSrc:
   //       "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596707/jbrish/screencapture-tic-tac-toe-moath-netlify-app-2022-12-09-16_37_04_bywlga.png",
