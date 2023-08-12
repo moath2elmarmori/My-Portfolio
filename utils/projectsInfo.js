@@ -8,6 +8,14 @@ const projectsInfoArr = [
     projectGithubRepo:
       "https://github.com/moath2elmarmori/Entertainment-web-app",
   },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1691844017/Screenshot_4_a9fjlt.png",
+    imageAlt: "Champion Store",
+    projectTitle: "Champion Store",
+    projectLiveSite: "https://championstore.ly/",
+    projectGithubRepo: "",
+  },
 
   {
     imgSrc:

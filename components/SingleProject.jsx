@@ -16,9 +16,11 @@ function SingleProject(props) {
         <Link target={"_blank"} href={`${props.projectLiveSite}`}>
           Live Site
         </Link>
-        <Link target={"_blank"} href={`${props.projectGithubRepo}`}>
-          Github Repository
-        </Link>
+        {props.projectGithubRepo && (
+          <Link target={"_blank"} href={`${props.projectGithubRepo}`}>
+            Github Repository
+          </Link>
+        )}
       </div>
     </div>
   );
