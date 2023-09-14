@@ -53,9 +53,7 @@ export default function HomeSection() {
       >
         <div className="image-div">
           <Image
-            src={
-              "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670326532/mine/296276489_1745260369167013_5723726833934941516_n_bixgf5.jpg"
-            }
+            src="https://res.cloudinary.com/dk5awi1mn/image/upload/v1694732497/for-portfolio_a56sep.jpg"
             alt="A Photo Of Me"
             width={350}
             height={350}
