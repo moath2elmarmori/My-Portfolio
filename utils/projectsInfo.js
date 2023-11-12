@@ -8,14 +8,14 @@ const projectsInfoArr = [
     projectGithubRepo:
       "https://github.com/moath2elmarmori/Entertainment-web-app",
   },
-  {
-    imgSrc:
-      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1691844017/Screenshot_4_a9fjlt.png",
-    imageAlt: "Champion Store",
-    projectTitle: "Champion Store",
-    projectLiveSite: "https://championstore.ly/",
-    projectGithubRepo: "",
-  },
+  // {
+  //   imgSrc:
+  //     "https://res.cloudinary.com/dk5awi1mn/image/upload/v1691844017/Screenshot_4_a9fjlt.png",
+  //   imageAlt: "Champion Store",
+  //   projectTitle: "Champion Store",
+  //   projectLiveSite: "https://championstore.ly/",
+  //   projectGithubRepo: "",
+  // },
 
   {
     imgSrc:
@@ -49,14 +49,14 @@ const projectsInfoArr = [
     projectLiveSite: "https://galleria-show.vercel.app/",
     projectGithubRepo: "https://github.com/moath2elmarmori/galleria-show-site",
   },
-  {
-    imgSrc:
-      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597595/jbrish/screencapture-moath-yelpcamp-onrender-campgrounds-63871d4d1ca266fde58f3ad8-2022-12-09-16_51_38_gtheba.png",
-    imageAlt: "YelpCamp",
-    projectTitle: "YelpCamp",
-    projectLiveSite: "https://moath-yelpcamp.onrender.com/",
-    projectGithubRepo: "https://github.com/moath2elmarmori/yelpCamp",
-  },
+  // {
+  //   imgSrc:
+  //     "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597595/jbrish/screencapture-moath-yelpcamp-onrender-campgrounds-63871d4d1ca266fde58f3ad8-2022-12-09-16_51_38_gtheba.png",
+  //   imageAlt: "YelpCamp",
+  //   projectTitle: "YelpCamp",
+  //   projectLiveSite: "https://moath-yelpcamp.onrender.com/",
+  //   projectGithubRepo: "https://github.com/moath2elmarmori/yelpCamp",
+  // },
 
   {
     imgSrc:
@@ -67,15 +67,15 @@ const projectsInfoArr = [
     projectGithubRepo: "https://github.com/moath2elmarmori/IP-Address-Tracker",
   },
 
-  {
-    imgSrc:
-      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596469/jbrish/screencapture-moath-ticketing-system-onrender-products-637dd21d71d505ae57d14a05-tickets-638b247ce9cb7936e744e2c4-2022-12-09-16_30_01_e3ihhk.png",
-    imageAlt: "Ticketing System",
-    projectTitle: "Ticketing System",
-    projectLiveSite: "https://moath-ticketing-system.onrender.com/",
-    projectGithubRepo:
-      "https://github.com/moath2elmarmori/Ticketing-System-Project",
-  },
+  // {
+  //   imgSrc:
+  //     "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596469/jbrish/screencapture-moath-ticketing-system-onrender-products-637dd21d71d505ae57d14a05-tickets-638b247ce9cb7936e744e2c4-2022-12-09-16_30_01_e3ihhk.png",
+  //   imageAlt: "Ticketing System",
+  //   projectTitle: "Ticketing System",
+  //   projectLiveSite: "https://moath-ticketing-system.onrender.com/",
+  //   projectGithubRepo:
+  //     "https://github.com/moath2elmarmori/Ticketing-System-Project",
+  // },
   // {
   //   imgSrc:
   //     "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670597084/jbrish/screencapture-goalsetter-moath-onrender-2022-12-09-16_43_36_gjl74y.png",
@@ -84,14 +84,14 @@ const projectsInfoArr = [
   //   projectLiveSite: "https://goalsetter-moath.onrender.com/",
   //   projectGithubRepo: "https://github.com/moath2elmarmori/MERN-GOALS-APP",
   // },
-  //   {
-  //     imgSrc:
-  //       "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596707/jbrish/screencapture-tic-tac-toe-moath-netlify-app-2022-12-09-16_37_04_bywlga.png",
-  //     imageAlt: "TIC TAC TOE",
-  //     projectTitle: "TIC TAC TOE",
-  //     projectLiveSite: "https://tic-tac-toe-moath.netlify.app/",
-  //     projectGithubRepo: "https://github.com/moath2elmarmori/TIC-TAC-TOE",
-  //   },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1670596707/jbrish/screencapture-tic-tac-toe-moath-netlify-app-2022-12-09-16_37_04_bywlga.png",
+    imageAlt: "TIC TAC TOE",
+    projectTitle: "TIC TAC TOE",
+    projectLiveSite: "https://tic-tac-toe-moath.netlify.app/",
+    projectGithubRepo: "https://github.com/moath2elmarmori/TIC-TAC-TOE",
+  },
 ];
 
 export default projectsInfoArr;
