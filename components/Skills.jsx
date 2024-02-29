@@ -69,7 +69,7 @@ function Skills() {
               i&apos;ve worked with{" "}
               <span className="highlited">VanillaJS + React</span> EcoSystem and
               the Lovely <span className="highlited-2">(NextJS)</span> enough to
-              make a good UI & UX designs, and i've built a game with{" "}
+              make a good UI & UX designs, and i&apos;ve built a game with{" "}
               <span className="highlited-3">VueJS</span> and refactored some old
               vue code for some old projects
             </p>
@@ -101,9 +101,9 @@ function Skills() {
           </div>
           <div>
             <p>
-              After sometime with web dev i've decided to go to something new
-              and challenging, so i've studdied Mobile dev, and my web dev
-              background have saved me a lot,{" "}
+              After sometime with web dev i&apos;ve decided to go to something
+              new and challenging, so i&apos;ve studdied Mobile dev, and my web
+              dev background have saved me a lot,{" "}
               <span className="highlited">React Native</span> was a good
               transition because of React background, but{" "}
               <span className="highlited-2">Flutter</span> was very fun for me
