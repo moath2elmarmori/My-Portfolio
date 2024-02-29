@@ -35,7 +35,7 @@ export default function HomeSection() {
         <h1>
           Moath <span className="elmarmori">Elmarmori</span>
         </h1>
-        <p>Self Taught Web Developer,</p>
+        <p>Self Taught Developer,</p>
         <p className="additional-info">
           Passionate about computer science field and hoping to gain more
           knowledge about it.
