@@ -1,6 +1,14 @@
 const projectsInfoArr = [
   {
     imgSrc:
+      "https://res.cloudinary.com/dk5awi1mn/image/upload/v1709197633/porfolio/Screenshot_51_fjn0fy.png",
+    imageAlt: "Majaz Design CO",
+    projectTitle: "Majaz Design CO",
+    projectLiveSite: "https://majazdesign.com/ar",
+    projectGithubRepo: null,
+  },
+  {
+    imgSrc:
       "https://res.cloudinary.com/dk5awi1mn/image/upload/v1675934459/jbrish/Screenshot_1_vmveuo.png",
     imageAlt: "Entertainment Web App",
     projectTitle: "Entertainment Web App",

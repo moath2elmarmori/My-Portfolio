@@ -66,8 +66,12 @@ function Skills() {
             <p>
               i&apos;m not going to write HTML, CSS etc.. thing, it&apos;s
               written enough accross Portfolios, but you should know that
-              i&apos;ve worked with VanillaJS + React (and it&apos;s lovely
-              third party packages) enough to make a good UI & UX designs
+              i&apos;ve worked with{" "}
+              <span className="highlited">VanillaJS + React</span> EcoSystem and
+              the Lovely <span className="highlited-2">(NextJS)</span> enough to
+              make a good UI & UX designs, and i've built a game with{" "}
+              <span className="highlited-3">VueJS</span> and refactored some old
+              vue code for some old projects
             </p>
           </div>
         </div>
@@ -79,22 +83,31 @@ function Skills() {
           </div>
           <div>
             <p>
-              currently working with NodeJS & Express & MongoDB for the server
-              side of web dev, but i don&apos;t have any tiny tiny problem
-              learning other technologies if needed
+              <span>
+                Handling the server side of things, have built APIs with{" "}
+                <span className="highlited">NodeJS & Express</span>-{" "}
+                <span className="highlited-2">PHP & Laravel</span>
+                and used the SQL and NoSQL DBs like{" "}
+                <span className="highlited-3">MongoDB, MySQL & PostgreSQL</span>
+              </span>
             </p>
           </div>
         </div>
         <div className={`${styles["box"]}`}>
           <div className={`${styles["top-box"]}`}>
             <h1>03</h1>
-            <h2>Full-Stack</h2>
+            <h2>Mobile</h2>
             <div className={`${styles["box-color"]}`}></div>
           </div>
           <div>
             <p>
-              Can compine the &quot;clientSide&quot; + &quot;serverSide&quot;
-              easily with each other, either with REST APIs or Graphql APIs
+              After sometime with web dev i've decided to go to something new
+              and challenging, so i've studdied Mobile dev, and my web dev
+              background have saved me a lot,{" "}
+              <span className="highlited">React Native</span> was a good
+              transition because of React background, but{" "}
+              <span className="highlited-2">Flutter</span> was very fun for me
+              and it took my heart quickly
             </p>
           </div>
         </div>
